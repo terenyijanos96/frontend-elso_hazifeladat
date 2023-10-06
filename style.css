@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 15px;
+}
+
+table, tr, th, td {
+    padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+thead tr th {
+    background-color: #aaa;
+}
+
+tbody tr:nth-child(2n) {
+    background-color:#ddd;
+}
+
+header, footer {
+    padding: 30px 0;
+}
